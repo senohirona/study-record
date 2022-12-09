@@ -17,13 +17,13 @@ GCPのCloudDataFusionというサービスを触ってみたログ(2020年)
 
 ### 作業環境
 - project
-    - repro-data-dev
+    - 個人のプロジェクト
 - リージョン
     - us-west-1
 
 ## cloud data fusion APIを有効にする　※初使用時のみ
 - data fusionを利用するにはcloud data fusion APIを有効にする必要がある
-    - repro-data-devでは必要なかったが、個人のプロジェクトで利用する場合は必要になるので注意
+
 
 ## インスタンスを作成
 - よしなに名前をつけて作成
