@@ -83,6 +83,43 @@ AWS Glue での抽出、変換、ロード（ETL）ジョブの作成、実行�
 - JDBC アクセスが可能なサードパーティのデータベース
 - MongoDB と Amazon DocumentDB (MongoDB 互換)
 
+# データ変換
+
+**※ここでは、Glue Studioにおけるデータ変換の種類について記載**
+
+(Glue Studioを利用しないのであれば、コードベースで変換等の処理は記載できる)
+
+ドキュメントにも一覧が記載されているが、最近追加されたものについては、日本語版ドキュメントには記載されていない
+
+[Editing AWS Glue managed data transform nodes](https://docs.aws.amazon.com/glue/latest/ug/edit-jobs-transforms.html)
+
+変換一覧(2023/2現在、GlueStudioのUI上で確認できるもの)
+
+- **Change Schema:** フィールド名とデータ型を変換、フィールドの削除を行う
+- **Join:** 一連の条件に基づいてレコードを結合する
+- **SQL Query:** SQLクエリを使用してデータを変換する
+- **Deset Sensitive Data:**PIIやその他の機密情報を検出する
+- **Eveluate Data Quality:** データの品質と完全性を評価する
+- **Fill Missing Values:** AWS Glueに欠落データの妥当な値を推測させる
+- **Aggregate:** 合計や平均などの関数をデータセットのフィールドに適用する
+- **Custom Transform:** データを変換するカスタムコードを記述する
+- **Drop Dupulicate:** データセットから重複レコードを削除する
+- **Drop Fields:** 選択したフィールドを削除する
+- **Drop Null Fields:** 空/Null値のみを持つ列を削除する
+- **Fillter:** 条件に基づいてデータをフィルタリングする
+- **Rename Field:** 1つのフィールドの名前を変更する
+- **Conditional Router:** 条件に基づいて、レコードを1つ以上の出力にルーティングする
+- **Select Fields:** データセットから保持するフィールドを選択する
+- **Select From Collection:** DynamicFramesのコレクションから単一のDynamicFramesを選択する
+- **Spigot:** サンプルデータをS3に書き込む
+- **Split Dataset By Fields:** 各フィールドの出力先を選択して、データセットを2つに分割する
+- **Union:** 2つのデータセットから全てのレコードの使用して新しい出力を作成する
+- **Flatten:** 構造体フィールドを最上位フィールドにフラット化する
+- **Format timestamp:** タイムスタンプ列をフォーマットされた文字列に変換する
+- **Identifier:** データセットの各行に数値識別子を割り当てる
+- **To timestamp:** タイムスタンプ型に変換する
+- **UUID:** 行ごとにUUIDを生成する
+
 # 料金
 
 [料金 - AWS Glue | AWS](https://aws.amazon.com/jp/glue/pricing/)
