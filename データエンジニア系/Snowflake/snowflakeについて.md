@@ -200,13 +200,6 @@ StandardとPremiumでは最大1日、Enterprise以上では最大90日遡るこ�
 |  | FedRAMP 中程度のコンプライアンス（指定された https://docs.snowflake.com/ja/user-guide/intro-regions.html#label-us-gov-regions内）。 | Business Critical Edition |
 |  | IRAP 保護コンプライアンス（指定された https://docs.snowflake.com/ja/user-guide/intro-regions.html#label-asia-pacific-regions内）。 | Business Critical Edition |
 
-# 触ってみたログ
-
-senoがためしに触ってみたログ
-
-- [Snowflake触ってみる その1](https://www.notion.so/Snowflake-1-210778689ae74b8e98f64700c1f4f0d3)
-- [Snowflake触ってみる その2](https://www.notion.so/Snowflake-2-85752364a34548d3b3d87f4ebd13f932)
-
 # 参考
 
 - [Snowflakeの紹介](https://docs.snowflake.com/ja/user-guide-intro.html)
